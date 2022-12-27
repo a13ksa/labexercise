@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+
+*{
+    font-family: 'Inter','Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+@media(max-width: 600px){
+    .container{
+        width: 90%;
+    }
+}
+button{
+    border: none;
+    background-color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    line-height: 150%;
+}
+header{
+    padding: 30px 0px;
+    background-color: #023047;
+}
+.heading{
+    border-radius: 30px;
+    padding: 20px 5px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: #FB8500 5px solid;
+    letter-spacing: 0.75em;
+}
+@media(max-width: 500px){
+    .heading{
+        letter-spacing: 0.65em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+}
+.heading h1{
+    margin-bottom: 15px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+@media(max-width: 1000px){
+    .container{
+        width: 80%;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin: 30px 0px;
+    }
+}
+.flex-contact{
+    display: flex;
+    gap: 0.4em;
+}
+.contact img{
+    height: 13.6px;
+    width: 13.34px;
+}
+.contact .title{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.content{
+    margin-bottom: 40px;
+}
+.plans-and-targets{
+    margin-bottom: 40px;
+    display: flex;
+}
+.plans-and-targets img{
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px 0px 0px 30px;
+}
+.plans-and-targets .title{
+    border-top-left-radius: 0px;
+}
+.plans-and-targets .text{
+    border-bottom-left-radius: 0px;
+    line-height: 150%;
+}
+@media only screen and (max-width: 768px){
+    .plans-and-targets{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .plans-and-targets img{
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+    .plans-and-targets .title{
+        border-radius: 30px 30px 0 0;
+    }
+    .plans-and-targets .text{
+        border-radius: 0px 0px 30px 30px;
+        line-height: 150%;
+    }
+    .flex-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+.title{
+    padding: 20px 0px;
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0 0;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+.text{
+    margin-top: -0px;
+    border: #FB8500 3px solid;
+    padding: 10px 30px;
+    border-radius: 0px 0px 30px 30px;
+    flex-grow: 1;
+}
+.flex-content{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.back{
+    margin-left: 10px;
+    color: #FB8500;
+}
+.flex-content1{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.bonus li::before{
+    content: "+";
+    margin-right: 4px;
+}
+@media only screen and (max-width: 360px){
+    .heading{
+        letter-spacing: normal;
+    }
+    h1{
+        font-size: 1.25em;
+    }
+    h3{
+        font-size: 0.75em;
+    }
+}
+table{
+    text-align: center;
+    width:100%;
+    margin:40px 0px;
+    padding: 15px;
+    border: #023047 3px solid;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  th{
+    padding: 20px 0px;
+    background-color: #023047;
+    color: #fff;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+  }
+  .check{
+    font-size: 30px;
+    color: #FB8500;
+  }
